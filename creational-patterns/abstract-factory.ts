@@ -1,7 +1,7 @@
 interface Order {
   id: number;
   addProduct(productId: string): void;
-  addShippingAddres(address: string): void;
+  addShippingAddress(address: string): void;
 }
 
 interface Payment {
@@ -25,7 +25,7 @@ class OnlineOrder implements Order {
     console.log(`Product ${productId} added to the online order`);
   }
 
-  addShippingAddres(address: string): void {
+  addShippingAddress(address: string): void {
     console.log(`Shipping address ${address} added to the online order`);
   }
 }
@@ -40,7 +40,7 @@ class PhysicalOrder implements Order {
   addProduct(productId: string): void {
     console.log(`Product ${productId} added to the physical order`);
   }
-  addShippingAddres(address: string): void {
+  addShippingAddress(address: string): void {
     console.log(`Shipping address ${address} added to the physical order`);
   }
 }
@@ -88,21 +88,22 @@ class PhysicalCommerceFactory implements CommerceFactory {
   }
 }
 
-// Client code
+// Client code for the online variant
 const onlineCommerceFactory = new OnlineCommerceFactory();
 const onlineOrder = onlineCommerceFactory.createOrder(1);
 const onlinePayment = onlineCommerceFactory.createPayment();
 
 onlineOrder.addProduct("123");
-onlineOrder.addShippingAddres("123 Main St");
+onlineOrder.addShippingAddress("123 Main St");
 onlinePayment.addCreditCardNumber(123456789);
 onlinePayment.completePayment(onlineOrder);
 
+// Client code for the physical variant
 const physicalCommerceFactory = new PhysicalCommerceFactory();
 const physicalOrder = physicalCommerceFactory.createOrder(2);
 const physicalPayment = physicalCommerceFactory.createPayment();
 
 physicalOrder.addProduct("456");
-physicalOrder.addShippingAddres("456 Main St");
+physicalOrder.addShippingAddress("456 Main St");
 physicalPayment.addCreditCardNumber(987654321);
 physicalPayment.completePayment(physicalOrder);
