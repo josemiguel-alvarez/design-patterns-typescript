@@ -41,6 +41,8 @@ class OnlinePaymentGateway extends PaymentGateway {
   }
 }
 
+// Example client code
+
 const physicalPaymentGateway = new PhysicalPaymentGateway();
 const physicalPayment = physicalPaymentGateway.createPayment(
   123456789,
