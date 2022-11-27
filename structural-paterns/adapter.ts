@@ -64,6 +64,8 @@ class LibraryJSONAdapter implements LibraryAdapter {
   }
 }
 
+// Client code
+
 console.log("Client code using the CSV adapter");
 const library = new LibraryCSV();
 const libraryAdapter = new LibraryCSVAdapter(library);
