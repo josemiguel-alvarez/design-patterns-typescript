@@ -8,16 +8,16 @@ This is a collection of examples of design patterns in Typescript.
 
 `npx ts-node path/to/example`
 
-# List of patterns
+## List of patterns
 
-## Creational patterns
+### Creational patterns
 
 - [Abstract Factory](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/creational-patterns/abstract-factory.ts)
 - [Builder](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/creational-patterns/builder.ts)
 - [Factory Method](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/creational-patterns/factory-method.ts)
 - [Singleton](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/creational-patterns/singleton.ts)
 
-## Structural patterns
+### Structural patterns
 
 - [Adapter](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/structural-paterns/adapter.ts)
 - [Bridge](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/structural-paterns/bridge.ts)
