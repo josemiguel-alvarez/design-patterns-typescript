@@ -8,15 +8,14 @@ abstract class UI {
   abstract render(): void;
 }
 
-interface Backend {
-  getData(): string;
+abstract class Backend {
+  abstract getData(): string;
 }
 
 class WebUI extends UI {
   public render() {
-    console.log("WebUI: Rendering data from the backend");
     const data = this.backend.getData();
-    console.log(data);
+    console.log("WebUI: Rendering data from the backend ->", data);
   }
 }
 
@@ -28,17 +27,15 @@ class WebBackend implements Backend {
 
 class AndroidUI extends UI {
   public render() {
-    console.log("AndroidUI: Rendering data from the backend");
     const data = this.backend.getData();
-    console.log(data);
+    console.log("AndroidUI: Rendering data from the backend ->", data);
   }
 }
 
 class IPhoneUI extends UI {
   public render() {
-    console.log("IPhoneUI: Rendering data from the backend");
     const data = this.backend.getData();
-    console.log(data);
+    console.log("IPhoneUI: Rendering data from the backend ->", data);
   }
 }
 
@@ -60,3 +57,10 @@ androidUI.render();
 
 const iphoneUI = new IPhoneUI(mobileBackend);
 iphoneUI.render();
+
+const androidBrowserUI = new AndroidUI(webBackend);
+androidBrowserUI.render();
+
+/*
+
+*/
