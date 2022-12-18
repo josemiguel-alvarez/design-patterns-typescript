@@ -1,3 +1,6 @@
+// A technical article explaining this pattern and the example can be found here
+// https://www.jmalvarez.dev/posts/abstract-factory-typescript
+
 interface Order {
   id: number;
   addProduct(productId: string): void;

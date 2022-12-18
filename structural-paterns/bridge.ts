@@ -1,3 +1,6 @@
+// A technical article explaining this pattern and the example can be found here
+// https://www.jmalvarez.dev/posts/bridge-pattern-typescript
+
 abstract class UI {
   protected backend: Backend;
 
@@ -60,7 +63,3 @@ iphoneUI.render();
 
 const androidBrowserUI = new AndroidUI(webBackend);
 androidBrowserUI.render();
-
-/*
-
-*/
