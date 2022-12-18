@@ -22,6 +22,7 @@ This is a collection of examples of design patterns in Typescript.
 - [Adapter](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/structural-paterns/adapter.ts)
 - [Bridge](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/structural-paterns/bridge.ts)
 - [Composite](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/structural-paterns/composite.ts)
+- [Decorator](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/structural-paterns/decorator.ts)
 
 ## Contributions
 
