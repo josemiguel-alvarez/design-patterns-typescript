@@ -16,6 +16,8 @@ Another advantage of this pattern is that **your code is decoupled from external
 
 As an example I'm going to build an application that gets books data from third-party libraries. My app works using a concrete data type but the third-party libraries use different types. I'm going to use the adapter pattern to make them compatible with my application.
 
+You can find the full example source code [here](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/structural-paterns/adapter/adapter.ts).
+
 1. Declare an interface for the adapters of the third-party libraries. This will be the interface used by your application. The adapter will implement this interface and will be responsible for transforming the data from the third-party library into the format that your application uses.
 
 In the example I'm going to define a method to get the books data and I'm going to also specify the structure of the data that the method will return, which is the data structure that my application works with.
