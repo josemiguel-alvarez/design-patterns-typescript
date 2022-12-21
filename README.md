@@ -12,16 +12,16 @@ This is a collection of examples of design patterns in Typescript.
 
 ### Creational patterns
 
-- [Abstract Factory](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/creational-patterns/abstract-factory.ts)
-- [Builder](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/creational-patterns/builder.ts)
-- [Factory Method](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/creational-patterns/factory-method.ts)
-- [Singleton](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/creational-patterns/singleton.ts)
+- [Abstract Factory](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/creational-patterns/abstract-factory)
+- [Builder](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/creational-patterns/builder)
+- [Factory Method](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/creational-patterns/factory-method)
+- [Singleton](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/creational-patterns/singleton)
 
 ### Structural patterns
 
-- [Adapter](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/structural-paterns/adapter.ts)
-- [Bridge](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/structural-paterns/bridge.ts)
-- [Composite](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/structural-paterns/composite.ts)
+- [Adapter](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/structural-paterns/adapter)
+- [Bridge](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/structural-paterns/bridge)
+- [Composite](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/structural-paterns/composite)
 - [Decorator](https://github.com/josemiguel-alvarez/design-patterns-typescript/tree/main/structural-paterns/decorator)
 
 ## Contributions
