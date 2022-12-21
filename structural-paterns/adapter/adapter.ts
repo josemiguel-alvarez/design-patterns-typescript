@@ -1,6 +1,3 @@
-// A technical article explaining this pattern and the example can be found here
-// https://www.jmalvarez.dev/posts/adapter-pattern-typescript
-
 class LibraryCSV {
   getBooks() {
     const books = [

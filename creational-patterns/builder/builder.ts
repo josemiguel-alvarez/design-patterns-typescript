@@ -1,6 +1,3 @@
-// A technical article explaining this pattern and the example can be found here
-// https://www.jmalvarez.dev/posts/builder-pattern-typescript
-
 interface Builder {
   setSeats(seats: number): this;
   setEngine(engine: string): this;
