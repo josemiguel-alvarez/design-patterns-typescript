@@ -20,6 +20,8 @@ The Decorator pattern can be useful when you want to:
 
 ## Implementation
 
+You can find the full example source code [here](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/structural-paterns/decorator/decorator.ts).
+
 1. Define the interface for the objects that will be decorated. This interface should specify the methods that will be available to the clients of these objects.
 
 In our example I'm going to create the interface `DataSource`.
