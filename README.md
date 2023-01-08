@@ -23,6 +23,7 @@ This is a collection of examples of design patterns in Typescript.
 - [Bridge](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/structural-paterns/bridge)
 - [Composite](https://github.com/josemiguel-alvarez/design-patterns-typescript/blob/main/structural-paterns/composite)
 - [Decorator](https://github.com/josemiguel-alvarez/design-patterns-typescript/tree/main/structural-paterns/decorator)
+- [Facade](https://github.com/josemiguel-alvarez/design-patterns-typescript/tree/main/structural-paterns/facade)
 
 ## Contributions
 
